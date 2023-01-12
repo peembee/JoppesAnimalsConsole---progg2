@@ -1,0 +1,35 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>JoppesAnimals</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>JoppesAnimals</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="JoppesAnimals.csproj" File="JoppesAnimals.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Animal.cs">Animal.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Ball.cs">Ball.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Cat.cs">Cat.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Dog.cs">Dog.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="JoppesAnimals_TemporaryKey.pfx">JoppesAnimals_TemporaryKey.pfx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="LotteryGame.cs">LotteryGame.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PetOwner.cs">PetOwner.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Puppy.cs">Puppy.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Store.cs">Store.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StorePantry.cs">StorePantry.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
